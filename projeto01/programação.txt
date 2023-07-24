@@ -1,0 +1,75 @@
+<b> </b> - Negrito
+<!doctype> - tipo do documento
+<!doctype html> - html 5 
+<html> </html> - criar os códigos dentro desta tag
+<head></head> - cabeça da página
+<body></body> - corpo da página
+<meta charset="utf-8"> -Codificação de acentuações. Permite usa acentuações nas páginas.
+
+Tags de cabeçalhos
+<br> - quebra de linha
+<h1></h1> - formatação de título
+<h2></h2> - "                            "
+<h3></h3> - "                            "
+<h4></h4> - "                            "
+<h5></h5> - "                            "
+<h6></h6> - "                            "
+<h7></h7> - "                            "
+<p></p> - Parágrafo (agrupar textos)
+<hr> linha entre os parágrafos
+<b></b> - Negrito - não mais usado
+<strong></strong> Negrito
+<i></i> - Italico - não mais usado
+<em></em> - Italico
+<u></u> - linha embaixo da letra
+<strike></strike> - linha sobre a letra
+
+<ul><ul> - Lista não ordenada
+<li><li> - lista
+type="circle" - alterar os marcadores 
+Ex: <ul type="circle"></ul>
+circle - circulo
+square - quadrado
+disc - circulo preenchido
+
+<ol></ol> - lista ordenada
+Ex: <ol type="1"></ol>
+1 - numeros ordenados
+a - letras minusculas ordenadas
+A - letras maiusculas ordenadas
+I - i maiusculo (algarimos romano maiusculo)
+i - i minusculo (algarismo romano minusculo)
+
+
+INSERIR IMAGENS
+<img src="imagens/ferrari.jpg" width="100" heigth="200"> (width - largura/ height - altura)
+ou
+copiar o endereço direto da web.
+
+LINKS
+<a href=" ">Clique aqui</a>
+
+TABELA
+<table border=""></table>
+border (borda)
+<tr></tr> - Linha da tabela
+<td></td> - dados da tabela (cada linha de codigo td se gera colunas)
+<th></th> -  titulos das tabelas
+<table border="" width="00%"></table> - Width - largura da tabela
+<td colspan="2"></td> - colspan mescla as linhas (2= duas linhas)
+<td rowspan="2"></td> - rowspan mescla colunas (2= duas colunas)
+
+FORMULARIO (login)
+<form></form> - formulário
+Login:<br>
+<input type="text" name="login"><br>
+Senha:<br>
+<input type="passrowd"> name="senha"
+<input type"submit" value>="logar">
+(metodo não seguro, pois apresenta os dados de login na URL)
+
+
+
+
+
+
